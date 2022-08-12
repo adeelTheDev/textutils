@@ -1,13 +1,48 @@
+::selection{
+  background: rgba(255, 0, 0, 0.669);
+  color: #fff;
+}
 body {
   margin: 0;
   font-family: -apple-system, BlinkMacSystemFont, 'Segoe UI', 'Roboto', 'Oxygen',
     'Ubuntu', 'Cantarell', 'Fira Sans', 'Droid Sans', 'Helvetica Neue',
     sans-serif;
   -webkit-font-smoothing: antialiased;
-  -moz-osx-font-smoothing: grayscale;
+  -moz-osx-font-smoothing: grayscale; 
+  background: rgba(135, 207, 235, 0.149);
 }
 
 code {
   font-family: source-code-pro, Menlo, Monaco, Consolas, 'Courier New',
     monospace;
+}
+html.dark.greenish body{
+  background: rgb(1, 31, 1);
+}
+html.dark.redish body{
+  background: #2b0202;
+}
+html.dark.bluish body{
+  background: #0d023c;
+}
+html.dark.greenish textarea{
+  background: rgb(2, 20, 2) !important;
+}
+html.dark.redish textarea{
+  background: #1c0202 !important;
+}
+html.dark.bluish textarea{
+  background: #090321 !important;
+}
+html.dark textarea{
+  border-color: #0d023c;
+}
+html.dark textarea,
+html.dark body {
+  color: #fff !important;
+}
+
+.form-check-input:checked {
+  background-color: #75c30d;
+  border-color: #0d6efd;
 }

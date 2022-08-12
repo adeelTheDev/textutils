@@ -1,0 +1,20 @@
+.colorPalettes {
+
+    margin-right: 30px;
+}
+.colorPalettes .color{
+    width: 30px;
+    height: 30px;
+    border-radius: 50%;
+    background: #fff;
+    margin: 0 4px;
+}
+.colorPalettes .color.greenish{
+    background: #036503;
+}
+.colorPalettes .color.redish{
+    background: #7c0404;
+}
+.colorPalettes .color.bluish{
+    background: #1d0587;
+}
