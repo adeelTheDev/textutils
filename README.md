@@ -23,7 +23,7 @@ It can
 - You should have nodejs installed on your PC
 - Open CMD in the main folder of the project
 - Run this command `npm i`
-- After this run `npm start
+- After this run `npm start`
 - And the website will be opened to your browser within a minute.
 
 ## Copyrights
