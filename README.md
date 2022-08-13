@@ -7,6 +7,9 @@ It can
 - Capitalize text.
 - Copy text to clipboard.
 - Remove extra spaces from text.
+- Preview Text.
+- Word Counter and Charcater counter.
+- Total time to read a text. 
 
 
 ## Author LinkedIn Profile
